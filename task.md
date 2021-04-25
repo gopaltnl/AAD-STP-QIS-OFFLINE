@@ -270,6 +270,8 @@
     </LinearLayout>
 </LinearLayout>
 
+```
+
 # blue.xml file
 
 ```
