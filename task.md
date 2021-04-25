@@ -443,3 +443,9 @@
 </shape>
 
 ```
+
+<resources>
+    <string name="app_name">Task</string>
+    <string name="share">Share &amp; Invite</string>
+    <string name="view">VIEW &amp; EDIT PROFILE</string>
+</resources>
