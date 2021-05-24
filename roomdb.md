@@ -817,4 +817,60 @@ public class MyViewModel extends AndroidViewModel {
 </LinearLayout>
 ```
 
+# Room  XML 
+
+```
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Room DataBase"
+    android:textSize="25sp"
+    android:textColor="#000"
+    android:textStyle="bold"
+    android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sid"
+        android:textColorHint="#000"
+        android:hint="Enter Student Id Here"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sname"
+        android:textColorHint="#000"
+        android:hint="Enter Student Name Here"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:layout_margin="3dp"
+            android:onClick="insertdata"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:layout_margin="3dp"
+            android:onClick="readdata"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_margin="3dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_margin="3dp"
+            />
+    </LinearLayout>
+```
 
